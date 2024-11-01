@@ -48,7 +48,7 @@ System for detecting new/modified files on given directory (through inotifywait)
 
 - If the program is executed without any arguments (./sniffer) , i call execv for inotifywait and the monitored directory is thisdir , else if there arguments i take the path from [-p path] , use   execv again but now the monitored directory is the directory inside the path. 
 
-(6) Makefile :
+### Makefile :
 
 - I have also created a `Makefile` for easier compilation of the project.
 
